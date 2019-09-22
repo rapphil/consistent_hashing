@@ -13,7 +13,7 @@ def _hash(data):
 
 class Client(object):
 
-    RING_SIZE = 10000
+    RING_SIZE = 20000
 
     def __init__(self, server_ips):
         self._servers = [Server(ip) for ip in server_ips]
